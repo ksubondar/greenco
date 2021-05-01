@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1507px) {
+    .social {
+        left: 50%;
+        top: 5%;
+    }
+    .social span {
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+    .social span:nth-last-child(1) {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    html, body {
+        font-size: 12px;
+    }
+    .social {
+        left: 43%;
+        top: 2%;
+    }
+    .section-one-img {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .section-one-img img {
+        width: 100%;
+        height: auto;
+    }
+    .section-one-right-part {
+        width: 70%;
+        max-width: 70%;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+    .slide-title, .slide-text {
+        color: #545454;
+    }
+    .slider-arrow {
+        border-color: #929292;;
+    }
+    input[type=range] {
+        -webkit-filter: drop-shadow(2px 4px 6px black);
+                filter: drop-shadow(2px 4px 6px black);
+    }
+    .section-one-button {
+        border-color: #5d5c5c;
+        color: #565556;
+    }
+    .section-one-button::after {
+        filter: brightness(0.5);
+        -webkit-filter: brightness(0.5);
+    }
+    
+}
+@media only screen and (max-width: 1042px) {
+    .section-one-right-part, .section-one-img {
+        width: 80%;
+        max-width: 80%;
+    }
+    .section-two-title {
+        padding-top: 0;
+    }
+    .text {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 951px) {
+    .section-two-button {
+        width: 331px;
+        height: 71px;
+        font-size: 2.2rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body, html {
+        font-size: 11px;
+    }
+    .section-one {
+        padding-top: 50px;
+    }
+    .section-one-right-part {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        background: url(../img/annie-spratt-78044.jpg) center / cover no-repeat;
+        padding: 20px 0 30px 0;
+    }
+    .section-one-img {
+        display: none;
+    }
+    .slider-control {
+        margin-bottom: 20px;
+    }
+    .section-one-button {
+        width: 331px;
+        height: 71px;
+        font-size: 2rem;
+        color: #ffff;
+    }
+    .section-one-button::after {
+        content: none;
+    }
+    .section-two {
+        padding-top: 100px;
+    }
+    .section-two-flex-container {
+        display: block;
+    }
+    .section-two-title {
+        margin-bottom: 20px;
+    }
+    .section-two-title span {
+        display: inline;
+    }
+    .text {
+        margin-bottom: 20px;
+    }
+    .button-two {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .section-two-button {
+        width: 100%;
+    }
+    .section-two-button::after {
+        content: none;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .slide-title {
+        font-size: 3.7857rem;
+        line-height: 4.1429rem;
+    }
+    .button-container.one {
+        width: 100%;
+    }
+    .button-two {
+        width: 100%;
+    }
+    .section-one-button {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .section-one-slider {
+        padding-right: 0;
+    }
+    .section-two-title span {
+        font-size: 2.3rem;
+    }
+}
